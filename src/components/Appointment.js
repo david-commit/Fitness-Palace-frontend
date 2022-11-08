@@ -24,7 +24,6 @@ function Appointment() {
           <input type="text" name="trainor" placeholder="Trainor" />
         </div>
         <input type="submit" value="Book" />
-      </form>
     </div>
   );
 }
