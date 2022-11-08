@@ -5,6 +5,10 @@ import Home from './Home';
 import Workouts from "./Workouts"
 import Trainers from './Trainers';
 import Contact from "./Contact"
+import Login from "./Login"
+import Appointment from "./Appointment"
+import SignUp from "./SignUp"
+import Welcome from "./Welcome"
 import { BrowserRouter, Switch, Route } from 'react-router-dom'; 
 
 function App() {
