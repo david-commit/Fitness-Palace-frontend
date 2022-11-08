@@ -29,7 +29,7 @@ function NavBar() {
             <li>
               <NavLink
                 exact
-                to='/Workouts'
+                to='/workouts'
                 className={({ isActive }) =>
                   isActive ? 'link active' : 'link'
                 }
