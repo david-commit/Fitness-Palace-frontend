@@ -6,7 +6,6 @@ function Appointment() {
   return (
     <div>
       <h1>Appointment</h1>
-      <form onSubmit={handleSubmit}>
         <div>
           <input type="text" name="name" placeholder="Name" />
         </div>
