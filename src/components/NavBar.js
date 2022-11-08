@@ -16,16 +16,48 @@ function NavBar() {
         <nav>
           <ul>
             <li>
-              <a href='../index.html'>Home</a>
+              <NavLink
+                exact
+                to='/'
+                className={({ isActive }) =>
+                  isActive ? 'link active' : 'link'
+                }
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <a href='../how-it-works/how-it-works.html'>How it Works</a>
+              <NavLink
+                exact
+                to='/Workouts'
+                className={({ isActive }) =>
+                  isActive ? 'link active' : 'link'
+                }
+              >
+                Workouts
+              </NavLink>
             </li>
             <li>
-              <a href='../products/products.html'>Products</a>
+              <NavLink
+                exact
+                to='/trainers'
+                className={({ isActive }) =>
+                  isActive ? 'link active' : 'link'
+                }
+              >
+                Trainers
+              </NavLink>
             </li>
             <li>
-              <a href='../contact-us/contact-us.html'>Contact Us</a>
+              <NavLink
+                to='/contact'
+                exact
+                className={({ isActive }) =>
+                  isActive ? 'link active' : 'link'
+                }
+              >
+                Contact Us
+              </NavLink>
             </li>
           </ul>
         </nav>
