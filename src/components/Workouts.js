@@ -4,11 +4,11 @@ import "./Workouts.css"
 function Workouts() {
   return (
     <div class="card">
-      <img src="img_avatar.png" alt="Avatar" style="width:100%"></img>
+      <img src="../img/undraw_fitness_stats_sht6.svg" alt="Avatar"/>
       <div class="container">
     <h4><b>Aerobics</b></h4>  
-  </div>
     </div>
+  </div>
   )
 }
 
