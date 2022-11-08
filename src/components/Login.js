@@ -3,7 +3,11 @@ import "./Login.css"
 
 function Login() {
   return (
-    <div>Login</div>
+    <div className='main'>
+      <div className='sub-main'>
+
+      </div>
+    </div>
   )
 }
 

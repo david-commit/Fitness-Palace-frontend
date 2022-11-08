@@ -1,0 +1,19 @@
+.main {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 90px 0 90px 0;
+    background-color: grey;
+}
+
+.sub-main {
+
+    display: flex;
+    align-items: center;
+    height: 550px;
+    width: 35%;
+    box-shadow: 11px 12px 12px 12px rgb(207, 207, 207);
+    padding-top: 30px;
+    border-radius: 60px;
+    background-color: white;
+}
