@@ -5,7 +5,7 @@ import "./Appointment.css"
 function Appointment() {
   return (
     <div>
-      
+      Appointment
     </div>
   )
 }
