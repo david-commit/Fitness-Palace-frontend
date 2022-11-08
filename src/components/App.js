@@ -14,6 +14,18 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Switch>
+          <Route exact path='/appointment'>
+            <Appointment />
+          </Route>
+          <Route exact path='/welcome'>
+            <Welcome />
+          </Route>
+          <Route exact path='/login'>
+            <Login />
+          </Route>
+          <Route exact path='/signup'>
+            <SignUp />
+          </Route>
           <Route exact path='/workouts'>
             <Workouts />
           </Route>
