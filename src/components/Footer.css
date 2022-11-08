@@ -1,0 +1,37 @@
+footer {
+ background-color: hsl(180, 6%, 7%);
+ color: white;
+ padding-top: 10px; /* CHECK THIS*/
+}
+.footer {
+  text-transform: capitalize;
+  display: flex;
+  width: 90%;
+  margin: 40px auto 0 auto;
+  padding-bottom: 40px;
+  justify-content: space-between;
+}
+.timing {
+  text-transform: none;
+}
+.box a {
+  color: white;
+  text-decoration: none;
+  margin: 4px 0;
+}
+.share a {
+  text-decoration: none;
+  color: white;
+  width: 10px;
+  padding: 10px;
+}
+form input {
+  padding: 7px;
+  border: none;
+}
+form button {
+  padding: 7px;
+  background-color: #ea4e3a;
+  border: none;
+  color: white;
+}
