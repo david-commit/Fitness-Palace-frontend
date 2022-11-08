@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import "./Signup.css";
+import "./SignUp.css";
 import { useRef, useState,useEffect } from "react";
 import { faCheck, faTimes, faInfoCircle} from "@fortawesome/free-solid-svg-icons";
 import { fontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -26,7 +26,7 @@ const SignUp = () => {
 
     const [errMsg, setErrMsg] = useState('');
     const [success, setSuccess] = useState(false);
-    
+
     useEffect(() => {
       userRef.current.focus();
   }, [])
