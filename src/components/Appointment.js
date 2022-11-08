@@ -11,10 +11,15 @@ function Appointment() {
           <input type="text" name="name" placeholder="Name" />
         </div>
         <div>
-          <input type="text" name="date" placeholder="Date" />
+          <input type="date" name="date" value="" placeholder="Date" />
         </div>
         <div>
-          <input type="text" name="duration" placeholder="Duration" />
+          <input
+            type="datetime-local"
+            name="duration"
+            value=""
+            placeholder="Duration"
+          />
         </div>
         <div>
           <input type="text" name="trainor" placeholder="Trainor" />
