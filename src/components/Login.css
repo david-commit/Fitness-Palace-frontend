@@ -3,17 +3,74 @@
     justify-content: center;
     display: flex;
     padding: 90px 0 90px 0;
-    background-color: grey;
+    background-color: black;
+    margin: 20px 0 20px 0;
 }
 
 .sub-main {
 
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 550px;
-    width: 35%;
-    box-shadow: 11px 12px 12px 12px rgb(207, 207, 207);
+    width: 50%;
     padding-top: 30px;
     border-radius: 60px;
-    background-color: white;
+    color: #ea4e3a;
+    
 }
+
+.image {
+    padding-top: 20px;
+    justify-content: center;
+    display: block;
+    align-items: center;
+    
+
+}
+
+.image-container {
+    background-color:white;
+    border-radius: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 115px;
+    width: 115px;
+}
+
+.profile {
+    height: 80px;
+    width: 80px;
+    border-radius: 130px;
+    justify-content: center;
+
+}
+
+#login {
+    font-size: 3rem;
+}
+
+.login-button {
+
+    background: white;
+    color: black;
+    padding: 0 20px 0 20px ;
+    font-size: 2rem;
+    margin: 10px 0 10px 0;
+
+
+}
+
+#newmbr {
+    color: white;
+}
+
+#create-acc {
+
+    color: #ea4e3a;
+
+}
+
+
+
