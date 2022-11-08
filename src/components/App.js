@@ -8,8 +8,6 @@ import Contact from "./Contact"
 import { BrowserRouter, Switch, Route } from 'react-router-dom'; 
 
 function App() {
-  // const [page, setPage] = useState('/');
-  //onChangePage={setPage} />
 
   return (
     <div className='App'>

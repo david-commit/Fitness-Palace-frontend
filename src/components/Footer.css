@@ -19,11 +19,12 @@ footer {
   text-decoration: none;
   margin: 4px 0;
 }
-.share a {
+.share i {
   text-decoration: none;
   color: white;
   width: 10px;
-  padding: 10px;
+  margin-top: 15px;
+  padding-right: 20px;
 }
 form input {
   padding: 7px;
