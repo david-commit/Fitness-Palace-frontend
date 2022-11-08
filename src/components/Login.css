@@ -1,76 +1,114 @@
+body {
+    background: #333;
+}
 .main {
     text-align: center;
     justify-content: center;
     display: flex;
     padding: 90px 0 90px 0;
-    background-color: black;
+    background-color: #333;
     margin: 20px 0 20px 0;
+    width: 100%;
 }
 
-.sub-main {
+.main .sub-main {
 
     display: flex;
     align-items: center;
     justify-content: center;
     height: 550px;
-    width: 50%;
+    width: 40%;
     padding-top: 30px;
-    border-radius: 60px;
     color: #ea4e3a;
     
+    
 }
 
-.image {
+.main .image {
     padding-top: 20px;
+    width: 100%;
     justify-content: center;
     display: block;
-    align-items: center;
+    align-items: center; 
+    
+  
     
 
 }
 
-.image-container {
-    background-color:white;
-    border-radius: 150px;
+.main .image-container {
     align-items: center;
     justify-content: center;
     display: flex;
-    height: 115px;
-    width: 115px;
+    width: 100%;
 }
 
-.profile {
+.main .profile {
     height: 80px;
     width: 80px;
     border-radius: 130px;
     justify-content: center;
+    margin-bottom: 20px;
 
 }
 
-#login {
+.main #login {
     font-size: 3rem;
+    text-align: center;
 }
 
-.login-button {
+.main .login-button {
 
     background: white;
     color: black;
     padding: 0 20px 0 20px ;
     font-size: 2rem;
     margin: 10px 0 10px 0;
+    align-items: center;
 
 
 }
 
-#newmbr {
+.main #newmbr {
+    color: white;
+    text-align: center;
+}
+
+.main #create-acc {
+
+    color: #ea4e3a;
+    text-align: center;
+
+}
+
+.main .textfield {
+
+    margin: 30px 0 !important;
+    /* float: left; */
+    padding: 10px;
+    width: 100%;
+
+
+}
+
+.main label{
+    text-align: left;
+}
+
+.main #remember {
+
+    font-size: 1.5rem !important;
+    text-align: left;
+    /* border: 2px solid red; */
+    float: left;
     color: white;
 }
 
-#create-acc {
+.main #forgotpass a {
 
+    text-align: right;
     color: #ea4e3a;
-
+    text-decoration: none;
 }
-
 
 
