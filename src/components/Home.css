@@ -39,6 +39,20 @@
 /* =========info-cont========= */
 .info-cont{
  width: 70%;
- margin: 40px auto;
+ margin: 70px auto;
 }
+.info-cont-header {
+ text-align: center;
+}
+.info-cont-cards{
+ display: flex;
+}
+.info-cont-card{
+ padding: 20px;
+}
+.info-cont-card i, .info-cont-card h1{
+ font-size: 26px;
+ color: #a61a0e;
+}
+
 /* =========info-cont========= */
