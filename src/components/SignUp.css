@@ -1,0 +1,31 @@
+body {
+    color: white;
+}
+.sign {
+    width: 100%;
+}
+.signup {
+    text-align: center;
+    color: #EA4E3A;
+    font-size: 3rem;
+}
+.signup-body {
+    width: 40%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+}
+.create-account {
+    background-color: #EA4E3A;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.input-fields input {
+    margin: 20px 0 20px 0;
+}
+#terms {
+    color: #EA4E3A;
+}
