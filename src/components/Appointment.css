@@ -1,0 +1,39 @@
+.appointment-form{
+ width: 60%;
+ margin: 100px auto;
+ text-align: center;
+}
+.appointment-form form {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ /* border: 1px solid red; */
+ width: 70%;
+ margin: 30px auto;
+}
+/* .appointment-form :first-child{
+ margin-bottom: 40px;
+} */
+.appointment-form input{
+ width: 50%;
+ margin: 10px;
+}
+.appointment-form > form > label{
+ display: flex;
+ 
+}
+.appointment-form > form > select{
+  width: 50%;
+ background-color: #a61a0e;
+ border: none;
+ padding: 6px;
+ margin: 10px 0;
+}
+.appointment-form > form > button{
+   border: none;
+  font-size: 20px;
+  padding: 6px 20px;
+  background-color: #a61a0e;
+  margin: 30px;
+  width: 200px;
+}
