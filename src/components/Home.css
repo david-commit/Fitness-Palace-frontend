@@ -37,5 +37,8 @@
 }
 /* =========BANNER========= */
 /* =========info-cont========= */
-
+.info-cont{
+ width: 70%;
+ margin: 40px auto;
+}
 /* =========info-cont========= */
