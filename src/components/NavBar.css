@@ -31,12 +31,15 @@ nav {
   margin: auto;
   /* display: flex;
   justify-content: center; */
+  align-items: center;
 }
 nav ul {
   list-style: none;
+  display: flex;
+  /* justify-content: space-evenly; */
 }
 nav ul li {
-  float: left;
+  /* float: left; */
   padding: 10px;
 }
 nav ul li a {
@@ -59,7 +62,7 @@ nav ul li a:active {
   background-color: #ea4e3a;
   border: none;
   padding: 12px 15px;
-  margin: auto 0;
+  margin: auto 40px auto 0; 
   font-weight: 700;
   font-size: 24px;
   cursor: pointer;

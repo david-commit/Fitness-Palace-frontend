@@ -1,6 +1,7 @@
-import React from 'react'
-import "./Home.css"
+import React from 'react';
+import './Home.css';
 import bannerimg from '../img/jump-fitness-workout1.png';
+import { Link } from "react-router-dom"
 
 function Home() {
   return (
@@ -16,7 +17,9 @@ function Home() {
             excepturi ratione harum placeat sint, adipisci eaque tenetur fuga
             asperiores ea esse dicta, non sed ex quae quisquam laborum.
           </p>
-          <button type='button'>BOOK APPOINTMENT</button>
+          <Link to='/appointment'>
+            <button type='button'>BOOK APPOINTMENT</button>
+          </Link>
         </div>
       </div>
       {/* ==STATEMENT== */}
@@ -65,8 +68,91 @@ function Home() {
         </div>
       </div>
       {/* ==STATEMENT== */}
+      {/* ==PROGRESS== */}
+      <div className='progress-cont'>
+        <div className='progress-cont-cont'>
+          <br />
+          <br />
+          <h2>IMPROVE YOUR BODY POWER</h2>
+          <p>
+            Workouts are critical in maintaining a healthy body. You may wonder
+            when is the ideal time to start. The time is now.
+          </p>
+          <Link to="/workouts">
+            <button type='button'>See Workouts</button>
+          </Link>
+          <br />
+          <br />
+        </div>
+        <div className='progress-cont-pro'>
+          <br />
+          <h4>Immunity</h4>
+          <progress id='file' value='82' max='100'></progress>
+          <h4>Heart &amp; Energy</h4>
+          <progress id='file' value='87' max='100'></progress>
+          <h4>Joint &amp; Bones</h4>
+          <progress id='file' value='92' max='100'></progress>
+          <h4>Skin</h4>
+          <progress id='file' value='85' max='100'></progress>
+          <br />
+        </div>
+      </div>
+      {/* ==PROGRESS== */}
+      {/* ==PRICING== */}
+      <div className='pricing'>
+        <div className='pricing-header'>
+          <h1>OUR PRICING PLANS</h1>
+          <p>
+            Fitness Arena strives to ensure that all clients receive affordable
+            yet quality experience at the gym <br /> facility. Looking forward
+            to hosting you.
+          </p>
+        </div>
+        <div className='pricing-cards'>
+          <div className='pricing-card'>
+            <section className='pricing-card-package'>MONTHLY PACKAGE</section>
+            <br />
+            <h1>KES 6000</h1>
+            <h4>PER MONTH</h4>
+            <p>
+              PERSONAL TRAINING <br /> NUTRITIONAL GUIDANCE <br /> SPECIALIZED
+              WORKOUTS
+            </p>
+            <Link to='/signup'>
+              <button type='button'>Sign Up</button>
+            </Link>
+          </div>
+          <div className='pricing-card'>
+            <section className='pricing-card-package'>MONTHLY PACKAGE</section>
+            <br />
+            <h1>KES 6000</h1>
+            <h4>PER MONTH</h4>
+            <p>
+              PERSONAL TRAINING <br /> NUTRITIONAL GUIDANCE <br /> SPECIALIZED
+              WORKOUTS
+            </p>
+            <Link to='/signup'>
+              <button type='button'>Sign Up</button>
+            </Link>
+          </div>
+          <div className='pricing-card'>
+            <section className='pricing-card-package'>MONTHLY PACKAGE</section>
+            <br />
+            <h1>KES 6000</h1>
+            <h4>PER MONTH</h4>
+            <p>
+              PERSONAL TRAINING <br /> NUTRITIONAL GUIDANCE <br /> SPECIALIZED
+              WORKOUTS
+            </p>
+            <Link to='/signup'>
+              <button type='button'>Sign Up</button>
+            </Link>
+          </div>
+        </div>
+      </div>
+      {/* ==PRICING== */}
     </div>
   );
 }
 
-export default Home
+export default Home;
