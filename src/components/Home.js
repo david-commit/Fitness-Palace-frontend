@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Home.css"
-import bannerimg from "../img/jump-fitness-workout1.png"
+import bannerimg from '../img/jump-fitness-workout1.png';
 
 function Home() {
   return (
@@ -19,6 +19,7 @@ function Home() {
           <button type='button'>BOOK APPOINTMENT</button>
         </div>
       </div>
+      {/* ==STATEMENT== */}
       <div className='info-cont'>
         <div className='info-cont-header'>
           <h1>PUSH YOUR LIMITS FORWARD</h1>
@@ -63,6 +64,7 @@ function Home() {
           </div>
         </div>
       </div>
+      {/* ==STATEMENT== */}
     </div>
   );
 }
