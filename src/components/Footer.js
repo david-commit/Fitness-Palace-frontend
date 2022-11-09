@@ -10,7 +10,7 @@ function Footer() {
           <h3>quick links</h3>
           <Link to='/'>Home</Link>
           <br />
-          <Link to='/'>About</Link>
+          <Link to='/appointment'>Appointment</Link>
           <br />
           <Link to='/trainers'>Trainers</Link>
           <br />
@@ -18,7 +18,7 @@ function Footer() {
           <br />
           <Link to='/trainers'>Trainers</Link>
           <br />
-          <Link to='/'>Blogs</Link>
+          <Link to='/contact'>Contact Us</Link>
           <br />
         </div>
 
