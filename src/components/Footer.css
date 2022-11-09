@@ -19,6 +19,12 @@ footer {
   text-decoration: none;
   margin: 4px 0;
 }
+.box button{
+  background-color: #ea4e3a;
+  border-radius: 0;
+  float: right;
+  margin-top: -38px;
+}
 .share i {
   text-decoration: none;
   color: white;
