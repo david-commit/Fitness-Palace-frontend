@@ -13,11 +13,6 @@ import pilates from "../img/pilates.webp";
 import online from "../img/online.jpeg";
 import personal from "../img/personal.jpg";
 
-
-
-
-
-
 function Workouts() {
   return (
     <>
@@ -25,98 +20,74 @@ function Workouts() {
       <div className="workouts">
         <div class="card">
           <img src={train} alt="Avatar" />
-          <div class="container">
-            <h4>
-              <b>Aerobics</b>
-            </h4>
-          </div>
+          <h4>Aerobics</h4>
+          {/* <div class="container">
+          </div> */}
         </div>
         <div class="card">
           <img src={bike} alt="Avatar" />
           <div class="container">
-            <h4>
-              <b>Indoor Bike</b>
-            </h4>
+            <h4>Indoor Bike</h4>
           </div>
         </div>
         <div class="card">
           <img src={zumba} alt="Avatar" />
           <div class="container">
-            <h4>
-              <b>Zumba</b>
-            </h4>
+            <h4>Zumba</h4>
           </div>
         </div>
         <div class="card">
           <img src={defence} alt="Avatar" />
           <div class="container">
-            <h4>
-              <b>Self defence</b>
-            </h4>
+            <h4>Self defence</h4>
           </div>
         </div>
         <div class="card">
           <img src={yoga} alt="Avatar" />
           <div class="container">
-            <h4>
-              <b>Aerobics</b>
-            </h4>
+            <h4>Aerobics</h4>
           </div>
         </div>
         <div class="card">
           <img src={weights} alt="Avatar" />
           <div class="container">
-            <h4>
-              <b>Aerobics</b>
-            </h4>
+            <h4>Aerobics</h4>
           </div>
         </div>
         <div class="card">
           <img src={aerobics} alt="Avatar" />
           <div class="container">
-            <h4>
-              <b>Aerobics</b>
-            </h4>
+            <h4>Aerobics</h4>
           </div>
         </div>
         <div class="card">
           <img src={treadmill} alt="Avatar" />
           <div class="container">
-            <h4>
-              <b>Aerobics</b>
-            </h4>
+            <h4>Aerobics</h4>
           </div>
         </div>
         <div class="card">
           <img src={legs} alt="Avatar" />
           <div class="container">
-            <h4>
-              <b>Aerobics</b>
-            </h4>
+            <h4>Aerobics</h4>
           </div>
         </div>
         <div class="card">
           <img src={pilates} alt="Avatar" />
           <div class="container">
-            <h4>
-              <b>Aerobics</b>
-            </h4>
+            <h4>Aerobics</h4>
           </div>
         </div>
         <div class="card">
           <img src={online} alt="Avatar" />
           <div class="container">
-            <h4>
-              <b>Aerobics</b>
-            </h4>
+            <h4>Aerobics</h4>
           </div>
         </div>
         <div class="card">
           <img src={personal} alt="Avatar" />
           <div class="container">
-            <h4>
-              <b>Aerobics</b>
-            </h4>
+            <h4>Aerobics</h4>
           </div>
         </div>
       </div>
