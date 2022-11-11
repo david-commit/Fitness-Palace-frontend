@@ -20,9 +20,9 @@ function Workouts() {
       <div className="workouts">
         <div class="card">
           <img src={train} alt="Avatar" />
+          <div class="container">
           <h4>Aerobics</h4>
-          {/* <div class="container">
-          </div> */}
+          </div>
         </div>
         <div class="card">
           <img src={bike} alt="Avatar" />
@@ -45,13 +45,13 @@ function Workouts() {
         <div class="card">
           <img src={yoga} alt="Avatar" />
           <div class="container">
-            <h4>Aerobics</h4>
+            <h4>Yoga</h4>
           </div>
         </div>
         <div class="card">
           <img src={weights} alt="Avatar" />
           <div class="container">
-            <h4>Aerobics</h4>
+            <h4>Weight lifting</h4>
           </div>
         </div>
         <div class="card">
@@ -63,31 +63,31 @@ function Workouts() {
         <div class="card">
           <img src={treadmill} alt="Avatar" />
           <div class="container">
-            <h4>Aerobics</h4>
+            <h4>Treadmill</h4>
           </div>
         </div>
         <div class="card">
           <img src={legs} alt="Avatar" />
           <div class="container">
-            <h4>Aerobics</h4>
+            <h4>Leg Workouts</h4>
           </div>
         </div>
         <div class="card">
           <img src={pilates} alt="Avatar" />
           <div class="container">
-            <h4>Aerobics</h4>
+            <h4>Pilates</h4>
           </div>
         </div>
         <div class="card">
           <img src={online} alt="Avatar" />
           <div class="container">
-            <h4>Aerobics</h4>
+            <h4>Online Training</h4>
           </div>
         </div>
         <div class="card">
           <img src={personal} alt="Avatar" />
           <div class="container">
-            <h4>Aerobics</h4>
+            <h4>Personal Training</h4>
           </div>
         </div>
       </div>
