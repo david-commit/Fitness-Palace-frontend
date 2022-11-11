@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import './SignUp.css';
-// import { useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 const baseApiUrl = 'http://localhost/8000';
 function SignUp() {
   const fnameRef = useRef();
@@ -17,24 +18,24 @@ function SignUp() {
   const [pass, setPass] = useState([]);
   const [cpass, setCpass] = useState([]);
 
-  // const history = useHistory();
+  const history = useHistory();
   function signupUser(e) {
     e.preventDefault();
     console.log('Signup Attempt');
-    // let password = document.getElementById('exampleInputPassword1').value;
-    // console.log(password);
-    // let signupFails = false;
-    // if (password.length < 8) {
-    //   signupFails = true;
-    // }
-    // if (signupFails) {
-    //   console.log('Signup Failed');
-    //   // return <Redirect to='/login'  />
-    //   history.push('/signup');
-    // } else {
-    //   history.push('/');
-    // }
-    // // return <Redirect to='/signup'  />
+    let password = document.getElementById('exampleInputPassword1').value;
+    console.log(password);
+    let signupFails = false;
+    if (password.length < 8) {
+      signupFails = true;
+    }
+    if (signupFails) {
+      console.log('Signup Failed');
+      // return <Redirect to='/login'  />
+      history.push('/signup');
+    } else {
+      history.push('/');
+    }
+    // return <Redirect to='/signup'  />
 
     // =================TRIAL
 
@@ -133,13 +134,15 @@ function SignUp() {
               <span id='terms'> terms of service and privacy policy </span>{' '}
             </label>
           </div>
-          <button
-            type='submit'
-            class='btn btn-primary'
-            className='create-account'
-          >
-            CREATE AN ACCOUNT
-          </button>
+          <Link to="/login">
+            <button
+              type='submit'
+              class='btn btn-primary'
+              className='create-account'
+            >
+              CREATE AN ACCOUNT
+            </button>
+          </Link>
         </form>
       </div>
     </div>
