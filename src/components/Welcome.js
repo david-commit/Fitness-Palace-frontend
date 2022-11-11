@@ -9,7 +9,7 @@ function Welcome() {
   return (
     <div className='Invites'>
      <p>
-     <i class="fa-solid fa-check" size="lg"></i>
+     <i class="fa-solid fa-check fa-8x" size="lg"></i>
     </p>
 
     <h2>YOUR SESSION HAS BEEN BOOKED</h2>
