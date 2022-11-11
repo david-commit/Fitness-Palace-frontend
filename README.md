@@ -9,6 +9,10 @@ To get started with the project, you will be required to clone this repository. 
 A smartphone/tablet or a pic
 A WebBrowser
 Internet Connection
+## Screenshot
+![ScreenShot](/public/fitness-screenshot.png)
+## Deployed Work
+[Fitness Palace](https://fitness-palace-frontend.vercel.app/)
 ### Run
 'npm install --prefix client'
 ### Run
