@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Login.css"
 import profile from '../img/png-clipart-gym-logo-mark-gym.png'
-import { Link, Redirect, useHistory} from 'react-router-dom'
+import { Link, useHistory} from 'react-router-dom'
 
 
 function Login() {
