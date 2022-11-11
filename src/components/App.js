@@ -9,7 +9,9 @@ import Login from "./Login"
 import Appointment from "./Appointment"
 import SignUp from "./SignUp"
 import Welcome from "./Welcome"
+import AddTrainer from './AddTrainer';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'; 
+
 
 function App() {
 
@@ -18,6 +20,9 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Switch>
+          <Route exact path='/addtrainer'>
+            <AddTrainer />
+          </Route>
           <Route exact path='/appointment'>
             <Appointment />
           </Route>
