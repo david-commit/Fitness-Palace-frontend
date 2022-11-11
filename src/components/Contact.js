@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import "./Contact.css"
 //import map_image from "../img/map.png"
 
 function Contact() {
+  const nameRef = useRef()
+  const emailRef = useRef()
+  const phoneRef = useRef()
+  const messageRef = useRef()
+
   return (
     <div>
     <h1 id='us'>Contact Us</h1>
@@ -135,6 +140,7 @@ function Contact() {
               id='fullname'
               placeholder='John Doe'
               required
+              ref={nameRef}
             />
           </div>
           <div className='labels'>
@@ -145,12 +151,13 @@ function Contact() {
               id='fullname'
               placeholder='me@example.com'
               required
+              ref={emailRef}
             />
           </div>
           <div className='labels'>
             <label htmlFor='name'>Phone Number</label>
             <b>
-              <input type='tel' id='fullname' placeholder={+254} required />
+              <input type='tel' id='fullname' placeholder={+254} required ref={phoneRef}/>
               <br />
             </b>
           </div>
@@ -169,6 +176,7 @@ function Contact() {
                   padding: '15px',
                 }}
                 defaultValue={''}
+                ref={messageRef}
               />
             </div>
             <div className='btnclassName'>

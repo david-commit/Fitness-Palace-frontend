@@ -1,0 +1,62 @@
+/* =========TRAINERS BODY========= */
+.trainers-heading {
+  text-align: center;
+  margin-top: 60px;
+  font-weight: 400;
+  font-size: 50px;
+}
+.trainers {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.trainer-card {
+  width: 30%;
+  margin: 30px auto;
+}
+.trainer-card img {
+  width: 100%;
+}
+.trainer-details h3 {
+  color: orangered;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.trainer-details a {
+  padding: 4px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+.trainer-details a:hover {
+  color: orangered;
+  cursor: pointer;
+  transition-delay: 200ms;
+  transform: scale(1.2);
+  /* transition: all .3 ease; */
+}
+.join-us {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.join-us button {
+  background-color: orangered;
+  border: none;
+  font-size: 18px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 60px;
+  border: 1px solid orangered;
+}
+.join-us button:hover {
+  background-color: black;
+  border: 1px solid orangered;
+  color: white;
+}
+/* =========TRAINERS BODY========= */

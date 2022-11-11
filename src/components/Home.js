@@ -78,7 +78,7 @@ function Home() {
             Workouts are critical in maintaining a healthy body. You may wonder
             when is the ideal time to start. The time is now.
           </p>
-          <Link to="/workouts">
+          <Link to='/workouts'>
             <button type='button'>See Workouts</button>
           </Link>
           <br />
@@ -122,27 +122,28 @@ function Home() {
               <button type='button'>Sign Up</button>
             </Link>
           </div>
-          <div className='pricing-card'>
-            <section className='pricing-card-package'>MONTHLY PACKAGE</section>
+          <div className='pricing-card' style={{backgroundColor: "black", border: "1px solid red", scale: "1.3"}}>
+            <section className='pricing-card-package'>
+              QUARTERLY PACKAGE
+            </section>
             <br />
-            <h1>KES 6000</h1>
-            <h4>PER MONTH</h4>
+            <h1>KES 16000</h1>
+            <h4>PER 3 MONTHS</h4>
             <p>
-              PERSONAL TRAINING <br /> NUTRITIONAL GUIDANCE <br /> SPECIALIZED
-              WORKOUTS
+              PERSONALIZED TRAINING <br /> NUTRITIONAL GUIDANCE <br />{' '}
+              SPECIALIZED WORKOUTS
             </p>
             <Link to='/signup'>
               <button type='button'>Sign Up</button>
             </Link>
           </div>
           <div className='pricing-card'>
-            <section className='pricing-card-package'>MONTHLY PACKAGE</section>
+            <section className='pricing-card-package'>1 YEAR PACKAGE</section>
             <br />
-            <h1>KES 6000</h1>
-            <h4>PER MONTH</h4>
+            <h1>KES 65000</h1>
+            <h4>PER 12 MONTHs</h4>
             <p>
-              PERSONAL TRAINING <br /> NUTRITIONAL GUIDANCE <br /> SPECIALIZED
-              WORKOUTS
+              UNLIMITED GYM ACCESS <br /> PERSONALIZED TRAINING <br /> NUTRITIONAL GUIDANCE
             </p>
             <Link to='/signup'>
               <button type='button'>Sign Up</button>
