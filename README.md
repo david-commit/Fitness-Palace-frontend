@@ -10,7 +10,7 @@ A smartphone/tablet or a pic
 A WebBrowser
 Internet Connection
 ## Screenshot
-![ScreenShot](./public/fitness-screenshot.png)
+![ScreenShot](./src/img/fitness-screenshot.png)
 ## Deployed Work
 [Fitness Palace](https://fitness-palace-frontend.vercel.app/)
 ### Run
