@@ -1,0 +1,119 @@
+#us{
+    color: #ea4e3a;
+    font-size: 50px;
+    text-align: center;
+    margin: 50px;
+}
+
+.topsection{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 30px;
+    width: 80%;
+    margin: auto;
+}
+.topsection h2{
+    text-align: center;
+
+}
+.topsection p{
+    text-align: center;
+}
+.row{
+    background-color: #ea4e3a;
+    color: white;
+    margin: 32px;
+    padding: 18px;
+    border-radius: 7px;
+    font-size: 24px;
+}
+
+.counties{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px auto;
+    font-size: 22px;
+    width: 70%;
+}
+.counties div{
+    width: 30%;
+}
+
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    background-color: black;
+    height: 400px;
+}
+.platforms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    font-size: 24px;
+    color: white;
+ }
+.platforms div{
+    margin: 5px;
+    
+}
+.platforms div p {
+    color: white;
+}
+
+#mail{
+    margin: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.form{
+    width: 550px;
+    margin-top: -50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #ea4e3a;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 20px;
+}
+#fullname{
+    border: 1px solid lightgray;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.labels{
+    padding: 10px;
+
+}
+.name{
+    padding: 5px;
+}
+.btnclass{
+    display: flex;
+}
+#btn{
+    margin:14px auto;
+    padding: 8px 18px;
+    border-radius: 5px;
+    background-color: #ea4e3a;
+    color: white;
+    font-size: large;
+    border: white 1px solid;
+}
+
+
+
+
+
+
+

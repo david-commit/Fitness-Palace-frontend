@@ -1,0 +1,44 @@
+footer {
+ background-color: hsl(241, 80%, 52%);
+ color: white;
+ padding-top: 10px; /* CHECK THIS*/
+}
+.footer {
+  text-transform: capitalize;
+  display: flex;
+  width: 90%;
+  margin: 40px auto 0 auto;
+  padding-bottom: 40px;
+  justify-content: space-between;
+}
+.timing {
+  text-transform: none;
+}
+.box a {
+  color: white;
+  text-decoration: none;
+  margin: 4px 0;
+}
+.box button{
+  background-color: #ea4e3a;
+  border-radius: 0;
+  float: right;
+  margin-top: -38px;
+}
+.share i {
+  text-decoration: none;
+  color: white;
+  width: 10px;
+  margin-top: 15px;
+  padding-right: 20px;
+}
+form input {
+  padding: 7px;
+  border: none;
+}
+form button {
+  padding: 7px;
+  background-color: #ea4e3a;
+  border: none;
+  color: white;
+}

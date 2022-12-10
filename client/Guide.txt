@@ -1,0 +1,21 @@
+Guides:
+
+COLORS ==========================
+1. Background primary color (black): #111313
+2. Secondary color (orange): #ea4e3a 		Dark Orange: #a61a0e
+3. Text color (white): #fff
+=================================
+
+FONT ==========================
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap');
+font-family: 'Dosis', sans-serif;
+===============================
+
+COMMITS & PUSHING ===============
+> After you've selected the part(s) you'll work on, craete a branch
+on your local using ``git branch -b <branch-name>``, for example i'm
+working on the login page, do ``git checkout -b ft-login``. (ft means feature)
+> ONLY edit the feature(s) you're working on, DO NOT touch any other ft
+without guidance otherwise it will create a github conflict. (WE DONT WANT THAT)
+> When pushing, push to your created BRANCH (not master). For example i'm working on the ft-homepage, I will run git ``git push origin ft-homepage`` always. The scrum master will be responsible for merging everyone's work to the development branch..
+==================================
